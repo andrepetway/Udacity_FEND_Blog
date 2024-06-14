@@ -1,0 +1,33 @@
+.navbar {
+    grid-area: nav;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: #c7d7b1;
+    position: fixed;
+    top:0;
+    font: small-caps bold 10px "Futura", sans-serif;
+    width:100%;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.active {
+    background-color: darkolivegreen;
+}
+
+.header {grid-area:hd;}

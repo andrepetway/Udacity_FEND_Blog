@@ -1,0 +1,42 @@
+/* Imports */
+@import 'layout.css';
+@import 'header.css';
+@import 'footer.css';
+
+/* About Specific */
+
+/* Mobile First */
+
+.content {
+    grid-area:main;
+}
+
+.box {
+   display:flex;
+   flex-wrap:wrap;
+   border-color: #000;
+   border-radius:5px;
+   background-color: rgb(256,256,256);
+    
+}
+
+.respport{
+    border-radius:50%;
+    max-width: 80%;
+    height: auto;
+    filter: drop-shadow(1px 1px 3px #000)
+}
+
+/* Wider Screens */
+@media screen and (min-width: 768px){
+    .box{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .box div{flex-basis:700px;}
+    
+}

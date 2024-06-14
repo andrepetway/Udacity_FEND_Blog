@@ -1,0 +1,20 @@
+.footer{
+    grid-area: ft;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c7d7b1;
+    position: sticky;
+    bottom: 0;
+    font: small-caps bold 10px "Futura", sans-serif;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    float: left;
+}
